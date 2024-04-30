@@ -1,0 +1,48 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    text-align: center; /* Align table data at the center */
+    padding: 0 20px; /* Add padding to the container */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increase padding for better spacing */
+    font-size: 16px; /* Increase text size */
+    font-weight: normal; /* Adjust font weight */
+  }
+  
+  .table th {
+    background-color: green; /* Make table heading blue */
+    color: white; /* Text color for table heading */
+    font-weight: bold;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .heading {
+    text-align: center;
+  }
+  
+  .heading h1 {
+    font-size: 36px; /* Increase font size */
+    animation: bounce 1s infinite alternate; /* Apply animation */
+  }
+  
+  @keyframes bounce {
+    from {
+      transform: translateY(-10px);
+    }
+    to {
+      transform: translateY(10px);
+    }
+  }
+  
